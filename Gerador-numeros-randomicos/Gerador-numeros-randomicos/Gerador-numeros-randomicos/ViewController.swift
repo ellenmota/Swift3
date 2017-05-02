@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     @IBAction func gerarNumero(_ sender: Any) {
         
-        var myRandom = arc4random_uniform(20)
+        let myRandom = arc4random_uniform(20)
         resultado.text = String(myRandom)
     }
     
